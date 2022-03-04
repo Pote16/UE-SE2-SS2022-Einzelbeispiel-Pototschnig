@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Einzelabgabe</string>
     <string name="button_send" translatable="false">Abschicken</string>
+    <string name="button_calculate" translatable="false">Berechne 4</string>
     <string name="edit_message" translatable="false">Matrikelnummer</string>
     <string name="heading1">Gib deine Matrikelnummer ein</string>
     <string name="answerServer"> </string>
