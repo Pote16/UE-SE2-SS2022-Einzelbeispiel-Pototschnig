@@ -29,11 +29,11 @@ public class ThreadServer implements Runnable{
             Log.i("Test",matrikelNummer);
             outToServer.writeBytes(matrikelNummer +'\n');
             this.answerfield.setText(inFromServer.readLine());
-
-
             clientSocket.close();
+
         } catch (IOException e) {
             e.printStackTrace();
+            Log.e("ThreadServer","Ein Fehler ist bei der Serveranfrage aufgetreten");
         }
 
     }
