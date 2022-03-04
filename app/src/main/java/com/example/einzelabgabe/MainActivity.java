@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         btAbschicken.setOnClickListener(view -> {
             heading.setText(getString(R.string.heading2));
             answer.setText("");
-            //Meine Matrikelnummer: 51813675
             String matrikelnummer = txtEditMatrikelnummer.getText().toString();
             ThreadServer askServer = new ThreadServer(matrikelnummer, answer);
             new Thread(askServer).start();
